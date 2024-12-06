@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Dr. Haya Abdalla
+N:Abdalla;Dr. Haya;
+EMAIL;type=WORK,INTERNET:aa@aatienda.com
+ORG;CHARSET=UTF-8:AA Tienda
+TEL;TYPE=WORK,VOICE:+971569730466
+TITLE:Chief Executive Officer
+URL;www.aatienda.com
+END:VCARD
