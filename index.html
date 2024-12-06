@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-gb">
+    <head>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
+        <link rel="stylesheet" href="css/app.css">
+        <link href="css/aos.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+        <!--link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.0.0-beta.3/css/lightgallery.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.0.0-beta.3/css/lg-zoom.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.0.0-beta.3/css/lg-thumbnail.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.12/css/lightgallery.min.css"-->
+        <title>Dr. Haya Abdalla</title>
+
+        <style>
+            .galleryImage {
+                overflow: hidden;
+                position: relative;
+            }
+
+            .galleryImage img {
+                transition: transform 0.3s ease-in-out;
+                object-fit: cover;
+            }
+
+            .galleryImage:hover img {
+                transform: scale(0.9);
+                /* Adjust the scale factor as needed */
+            }
+
+            .gap-10 {
+                column-gap: 12rem;
+                row-gap: 2rem;
+            }
+
+            .accordion-button:not(.collapsed) {
+                color: #a5b0b3 !important;
+            }
+
+
+            @media only screen and (max-width: 400px) {
+                .bottom-icons {
+                    gap: 0px !important;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div id="edituserApp" v-cloak>
+ <div class="overlay"></div>
+            <div class="cover-bg">
+                <!--div class="noanimation"><img src="images/top-banner.jpeg" class="w-100 h-100"></div-->
+                <div class="profile-pic d-flex">
+                    <div class="profile-container">
+                        <img src="images/logo.png"
+                             class="w-100 mx-auto profile-image">
+                    </div>
+                </div>
+            </div>
+            <section class="body-bg">
+                <div class="text-white text-center mt-4 mb-3" style="margin-top: 43px !important;margin-bottom: 0px !important;">
+                    <span class="h1 text-capitalize name-title" style="color:#534441;font-size: 38px;">Dr. Haya Abdalla</span>
+
+                    <br>
+                    <span class="h4 name-title text-capitalize" style="color:#727272;font-size: 19px;">Chief Executive Officer</span>
+                </div>
+                <div class="text-center mt-4 mb-3" style="margin:0px 0px 20px 0px!important;padding: 3px 0px;text-align: center;">
+                    <hr style="color:#534441;height: 2px;width:63%;text-align: center;margin: auto;">
+                </div>
+                <div class="row m-0 my-4 text-center justify-content-center" style="margin-bottom: 13px !important;margin-top: 18px !important;">
+                    <div class="col-12 mb-12 p-0">
+                        <ul class="social-top" style="margin-bottom:0px;">
+                            <li>
+                                <a href="tel:+971569730466">
+                                    <span class="social-top-icon"><img src="images/phone-icon.png"></span>
+                                    <span class="social-top-text">+971569730466</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:aa@aatienda.com">
+                                    <span class="social-top-icon"><img src="images/email-icon.png"></span>
+                                    <span class="social-top-text">aa@aatienda.com</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://aatienda.com/">
+                                    <span class="social-top-icon"><img src="images/web-icon.png"></span>
+                                    <span class="social-top-text">aatienda.com</span>
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <a href="tel:+971569730466" class="social-button phone-btn">
+                            <img src="images/phone-btn.png">
+                            <span class="social-text">Phone</span>
+                        </a>
+                    </div>
+                    <div class="col-6">
+                        <a href="mailto:aa@aatienda.com" class="social-button email-btn">
+                            <img src="images/email-btn.png">
+                            <span class="social-text">Email</span>
+                        </a>
+                    </div>
+                    <div class="col-6">
+                        <a href="https://aatienda.com/" class="social-button web-btn">
+                            <img src="images/web-btn.png">
+                            <span class="social-text insta-text">Website</span>
+                        </a>
+                    </div>
+                    <!--div class="col-6">
+                        <a href="https://www.instagram.com/dr.hayaabdalla/profilecard/?igsh=ZzFucnpoeWc3NzM=" class="social-button email-btn">
+                            <img src="images/email-btn.png">
+                            <span class="social-text insta-text">Instagram</span>
+                        </a>
+                    </div-->
+                    <div class="col-6">
+                        <a href="https://www.linkedin.com/in/dr-haya-abdalla-68434192?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="social-button email-btn">
+                            <img src="images/linkedin.png">
+                            <span class="social-text linkedin-text">Linkedin</span>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="container-fuild text-center">
+                    <div class="my-2 text-center d-flex justify-content-center gap-3" style="margin-bottom:0px !important;">
+                    <div>
+                    <button onclick="window.location.href = 'https://pkpass.digitalgraphixs.com/pass/Haya-Abdalla'"  class="btn btn-sm text-grey px-3 py-2 shadow-none apple-wallet-btn" style="background-color:#bdbdbd;">
+                        <i class="fa-solid fa-wallet apple-wallet-img"></i>    
+                        
+                            <span class="normal-txt">Add to</span> 
+                            <span class="bold-txt">Apple Wallet</span>
+                        </button>
+                    </div>
+                    <div>
+                        <button href="https://pay.google.com/gp/v/save/eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJwYWxhY2lvLXJpb3NAcGFsYWNpby1yaW9zLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwiYXVkIjoiZ29vZ2xlIiwib3JpZ2lucyI6WyJodHRwczovL2RpZ2l0YWxncmFwaGl4cy5jb20vZ29vZ2xlUGFzc2VzIl0sInR5cCI6InNhdmV0b3dhbGxldCIsInBheWxvYWQiOnsiZ2VuZXJpY0NsYXNzZXMiOlt7ImVuYWJsZVNtYXJ0VGFwIjpudWxsLCJpZCI6IjMzODgwMDAwMDAwMjIzMTMwMDkuZ29vZ2xlUGFzc2VzIiwibXVsdGlwbGVEZXZpY2VzQW5kSG9sZGVyc0FsbG93ZWRTdGF0dXMiOm51bGwsInJlZGVtcHRpb25Jc3N1ZXJzIjpudWxsLCJ2aWV3VW5sb2NrUmVxdWlyZW1lbnQiOm51bGx9XSwiZ2VuZXJpY09iamVjdHMiOlt7ImNsYXNzSWQiOiIzMzg4MDAwMDAwMDIyMzEzMDA5Lmdvb2dsZVBhc3NlcyIsImdlbmVyaWNUeXBlIjpudWxsLCJoYXNVc2VycyI6bnVsbCwiaGV4QmFja2dyb3VuZENvbG9yIjoiI2ZmZmZmZiIsImlkIjoiMzM4ODAwMDAwMDAyMjMxMzAwOS5nb29nbGVQYXNzZXMxMCIsInNtYXJ0VGFwUmVkZW1wdGlvblZhbHVlIjpudWxsLCJzdGF0ZSI6IkFDVElWRSIsImxvZ28iOnsia2luZCI6bnVsbCwic291cmNlVXJpIjp7ImRlc2NyaXB0aW9uIjpudWxsLCJ1cmkiOiJodHRwczovL2RpZ2l0YWxncmFwaGl4cy5jb20vZ29vZ2xlUGFzc2VzL3VwbG9hZHMvMTEvMjAvb3JnX2xvZ29fMTczMjA4Njk1My5wbmcifSwiY29udGVudERlc2NyaXB0aW9uIjp7ImtpbmQiOm51bGwsImRlZmF1bHRWYWx1ZSI6eyJraW5kIjpudWxsLCJsYW5ndWFnZSI6ImVuLVVTIiwidmFsdWUiOiJBQSBUaWVuZGEifX19LCJjYXJkVGl0bGUiOnsia2luZCI6bnVsbCwiZGVmYXVsdFZhbHVlIjp7ImtpbmQiOm51bGwsImxhbmd1YWdlIjoiZW4tVVMiLCJ2YWx1ZSI6IkFBIFRpZW5kYSJ9fSwic3ViaGVhZGVyIjp7ImtpbmQiOm51bGwsImRlZmF1bHRWYWx1ZSI6eyJraW5kIjpudWxsLCJsYW5ndWFnZSI6ImVuLVVTIiwidmFsdWUiOiJOYW1lIn19LCJoZWFkZXIiOnsia2luZCI6bnVsbCwiZGVmYXVsdFZhbHVlIjp7ImtpbmQiOm51bGwsImxhbmd1YWdlIjoiZW4tVVMiLCJ2YWx1ZSI6IkRyLiBIYXlhICBBYmRhbGxhIn19LCJiYXJjb2RlIjp7ImFsdGVybmF0ZVRleHQiOiIiLCJraW5kIjpudWxsLCJyZW5kZXJFbmNvZGluZyI6bnVsbCwidHlwZSI6IlFSX0NPREUiLCJ2YWx1ZSI6Imh0dHBzOi8vZWNhcmQuZGlnaXRhbGdyYXBoaXhzLmNvbS9wcm9maWxlL0hheWEtQWJkYWxsYS8ifSwiaGVyb0ltYWdlIjp7ImtpbmQiOm51bGwsInNvdXJjZVVyaSI6eyJkZXNjcmlwdGlvbiI6bnVsbCwidXJpIjoiaHR0cHM6Ly9kaWdpdGFsZ3JhcGhpeHMuY29tL2dvb2dsZVBhc3Nlcy91cGxvYWRzLzExLzIwL29yZ19oZXJvXzE3MzIwODY5NTMucG5nIn0sImNvbnRlbnREZXNjcmlwdGlvbiI6eyJraW5kIjpudWxsLCJkZWZhdWx0VmFsdWUiOnsia2luZCI6bnVsbCwibGFuZ3VhZ2UiOiJlbi1VUyIsInZhbHVlIjoiQUEgVGllbmRhIEhlcm8gSW1hZ2UifX19LCJ0ZXh0TW9kdWxlc0RhdGEiOlt7ImJvZHkiOiJhYUBhYXRpZW5kYS5jb20iLCJoZWFkZXIiOiJFbWFpbCIsImlkIjoiZW1haWwifSx7ImJvZHkiOiIrOTcxNTY5NzMwNDY2IiwiaGVhZGVyIjoiUGhvbmUiLCJpZCI6InBob25lIn1dfV19fQ.CybaWiGHzJUMcOhsgLFTmtfe-O_s8OQN-vLq6hIkmYFNU5X0DWhw2EbTv1gEma8Gh880NpdORVXBWRATQ7S79kNN5DWRcOY3mUThKmVzi0hJKPAbMcnl9-efbOsV_THgDODFj8vsTyz9BEc2midJgp2w5ZhNkmvo2Mjqv2uM2fSp8kH1PA1gSYNyO4dl8hFRGGu90h1myH4QydYAhH6y-2IEW3Gk3RK9PIOzr0rejZGD3O3dtHmAA-oHALZPupXtrjN19AGrmX_4YdWjn0BiAFk6acZnB2JwkTpTXQjxIOjUrzY8op8UuE6MbjxY1IgaTdPbBXuUHwZzzUtOuQal3Q"   class="btn btn-sm text-grey px-3 py-2 shadow-none apple-wallet-btn" style="background-color:#bdbdbd;">
+                            <i class="fab fa-google-wallet apple-wallet-img" aria-hidden="true"></i>
+                            <span class="normal-txt">Add to</span> 
+                            <span class="bold-txt">Google Wallet</span>
+                        </button>
+                    </div>
+                </div>
+                    <div class="row m-0">
+                         <h2 class="follow-us">Follow us on</h2>
+                        <div class="bottom-icons my-3 d-flex justify-content-sm-center justify-content-center flex-wrap gap-2">
+                           
+                            <div style="display:flex;gap: 5px;">
+                                
+                                <a style="color:brown !important" href="https://www.facebook.com/aatiendaofficia" class="social_link" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 30 30">
+                                    <path fill="#55443d" d="M15,3C8.373,3,3,8.373,3,15c0,6.016,4.432,10.984,10.206,11.852V18.18h-2.969v-3.154h2.969v-2.099c0-3.475,1.693-5,4.581-5 c1.383,0,2.115,0.103,2.461,0.149v2.753h-1.97c-1.226,0-1.654,1.163-1.654,2.473v1.724h3.593L19.73,18.18h-3.106v8.697 C22.481,26.083,27,21.075,27,15C27,8.373,21.627,3,15,3z"></path>
+                                    </svg>
+
+                                </a>
+                                <a style="color:brown !important" href="https://www.youtube.com/@aatiendaofficial" class="social_link" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 50 50">
+                                    <path fill="#55443d" d="M 44.898438 14.5 C 44.5 12.300781 42.601563 10.699219 40.398438 10.199219 C 37.101563 9.5 31 9 24.398438 9 C 17.800781 9 11.601563 9.5 8.300781 10.199219 C 6.101563 10.699219 4.199219 12.199219 3.800781 14.5 C 3.398438 17 3 20.5 3 25 C 3 29.5 3.398438 33 3.898438 35.5 C 4.300781 37.699219 6.199219 39.300781 8.398438 39.800781 C 11.898438 40.5 17.898438 41 24.5 41 C 31.101563 41 37.101563 40.5 40.601563 39.800781 C 42.800781 39.300781 44.699219 37.800781 45.101563 35.5 C 45.5 33 46 29.398438 46.101563 25 C 45.898438 20.5 45.398438 17 44.898438 14.5 Z M 19 32 L 19 18 L 31.199219 25 Z"></path>
+                                    </svg>
+                                </a>
+                                <a style="color:brown !important" href="https://www.instagram.com/aatiendaofficial/?igshid=YmMyMTA2M2Y" class="social_link" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 50 50">
+                                    <path fill="#55443d" d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z"></path>
+                                    </svg>
+                                </a>
+
+
+                                <a style="color:brown !important" href="https://www.tiktok.com/@aatiendaofficial" class="social_link" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 50 50">
+                                    <path fill="#55443d" d="M 9 4 C 6.2495759 4 4 6.2495759 4 9 L 4 41 C 4 43.750424 6.2495759 46 9 46 L 41 46 C 43.750424 46 46 43.750424 46 41 L 46 9 C 46 6.2495759 43.750424 4 41 4 L 9 4 z M 9 6 L 41 6 C 42.671576 6 44 7.3284241 44 9 L 44 41 C 44 42.671576 42.671576 44 41 44 L 9 44 C 7.3284241 44 6 42.671576 6 41 L 6 9 C 6 7.3284241 7.3284241 6 9 6 z M 26.042969 10 A 1.0001 1.0001 0 0 0 25.042969 10.998047 C 25.042969 10.998047 25.031984 15.873262 25.021484 20.759766 C 25.016184 23.203017 25.009799 25.64879 25.005859 27.490234 C 25.001922 29.331679 25 30.496833 25 30.59375 C 25 32.409009 23.351421 33.892578 21.472656 33.892578 C 19.608867 33.892578 18.121094 32.402853 18.121094 30.539062 C 18.121094 28.675273 19.608867 27.1875 21.472656 27.1875 C 21.535796 27.1875 21.663054 27.208245 21.880859 27.234375 A 1.0001 1.0001 0 0 0 23 26.240234 L 23 22.039062 A 1.0001 1.0001 0 0 0 22.0625 21.041016 C 21.906673 21.031216 21.710581 21.011719 21.472656 21.011719 C 16.223131 21.011719 11.945313 25.289537 11.945312 30.539062 C 11.945312 35.788589 16.223131 40.066406 21.472656 40.066406 C 26.72204 40.066409 31 35.788588 31 30.539062 L 31 21.490234 C 32.454611 22.653646 34.267517 23.390625 36.269531 23.390625 C 36.542588 23.390625 36.802305 23.374442 37.050781 23.351562 A 1.0001 1.0001 0 0 0 37.958984 22.355469 L 37.958984 17.685547 A 1.0001 1.0001 0 0 0 37.03125 16.6875 C 33.886609 16.461891 31.379838 14.012216 31.052734 10.896484 A 1.0001 1.0001 0 0 0 30.058594 10 L 26.042969 10 z M 27.041016 12 L 29.322266 12 C 30.049047 15.2987 32.626734 17.814404 35.958984 18.445312 L 35.958984 21.310547 C 33.820114 21.201935 31.941489 20.134948 30.835938 18.453125 A 1.0001 1.0001 0 0 0 29 19.003906 L 29 30.539062 C 29 34.707538 25.641273 38.066406 21.472656 38.066406 C 17.304181 38.066406 13.945312 34.707538 13.945312 30.539062 C 13.945312 26.538539 17.066083 23.363182 21 23.107422 L 21 25.283203 C 18.286416 25.535721 16.121094 27.762246 16.121094 30.539062 C 16.121094 33.483274 18.528445 35.892578 21.472656 35.892578 C 24.401892 35.892578 27 33.586491 27 30.59375 C 27 30.64267 27.001859 29.335571 27.005859 27.494141 C 27.009759 25.65271 27.016224 23.20692 27.021484 20.763672 C 27.030884 16.376775 27.039186 12.849206 27.041016 12 z"></path>
+                                    </svg>
+                                </a>
+
+                                <a style="color:brown !important" href="https://www.snapchat.com/add/aatiendaofficia?sender_web_id=377c1e9a-02ff-4e80-8195-ff337a0dbbb6&amp;device_type=desktop&amp;is_copy_url=true" class="social_link" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 30 30">
+                                    <path fill="#55443d" d="M15.22,5c0.894,0,3.921,0.241,5.347,3.336c0.476,1.033,0.358,2.842,0.263,4.296l-0.004,0.064 c-0.013,0.203-0.026,0.399-0.037,0.587c0.023,0.023,0.205,0.192,0.617,0.208h0.001c0.313-0.012,0.673-0.108,1.067-0.287 c0.116-0.053,0.244-0.064,0.332-0.064c0.134,0,0.269,0.025,0.381,0.071l0.007,0.003c0.319,0.109,0.528,0.326,0.533,0.553 c0.004,0.213-0.164,0.534-0.988,0.849c-0.085,0.033-0.194,0.066-0.311,0.102c-0.471,0.145-1.182,0.364-1.4,0.861 c-0.119,0.272-0.081,0.603,0.114,0.985c0.002,0.004,0.004,0.007,0.005,0.011c0.059,0.134,1.483,3.278,4.662,3.785 c0.117,0.019,0.201,0.12,0.194,0.235c-0.003,0.043-0.014,0.086-0.032,0.129c-0.131,0.297-0.722,0.718-2.79,1.027 c-0.169,0.025-0.235,0.238-0.335,0.685c-0.037,0.163-0.074,0.323-0.125,0.491c-0.044,0.145-0.138,0.214-0.296,0.214H22.4 c-0.109,0-0.266-0.019-0.463-0.056c-0.35-0.066-0.742-0.127-1.242-0.127c-0.291,0-0.593,0.025-0.896,0.073 c-0.621,0.1-1.147,0.461-1.704,0.842C17.281,24.427,16.445,25,15.141,25c-0.057,0-0.113-0.002-0.168-0.005 C14.938,24.998,14.901,25,14.864,25c-1.303,0-2.14-0.573-2.949-1.126c-0.558-0.382-1.085-0.744-1.707-0.843 c-0.303-0.048-0.604-0.073-0.896-0.073c-0.525,0-0.94,0.078-1.242,0.135c-0.184,0.035-0.343,0.065-0.463,0.065 c-0.126,0-0.262-0.026-0.322-0.223c-0.051-0.17-0.089-0.335-0.125-0.494c-0.093-0.41-0.158-0.662-0.335-0.688 c-2.067-0.309-2.659-0.731-2.79-1.03c-0.018-0.043-0.029-0.085-0.032-0.128c-0.006-0.115,0.078-0.216,0.194-0.235 c3.177-0.507,4.602-3.653,4.662-3.786c0.002-0.004,0.004-0.007,0.005-0.011c0.194-0.382,0.233-0.714,0.114-0.985 c-0.218-0.498-0.929-0.716-1.4-0.861c-0.115-0.035-0.225-0.069-0.311-0.102c-0.94-0.36-1.017-0.729-0.981-0.917 c0.063-0.321,0.505-0.545,0.863-0.545c0.098,0,0.184,0.017,0.257,0.05c0.423,0.192,0.804,0.289,1.132,0.289 c0.454,0,0.653-0.185,0.676-0.209c-0.012-0.208-0.026-0.425-0.04-0.65C9.08,11.179,8.963,9.372,9.437,8.339 c1.424-3.094,4.446-3.334,5.337-3.334C14.799,5.004,15.167,5,15.167,5H15.22 M15.22,3h-0.053c-0.013,0-0.235,0.004-0.392,0.007 V3.005c-1.193,0-5.233,0.324-7.154,4.497c-0.484,1.052-0.562,2.356-0.526,3.652c-1.151,0.023-2.498,0.778-2.77,2.157 c-0.099,0.509-0.229,2.23,2.227,3.172c0.013,0.005,0.027,0.01,0.041,0.015c-0.491,0.701-1.394,1.677-2.71,1.887 c-1.131,0.177-1.94,1.175-1.876,2.321c0.018,0.286,0.082,0.552,0.191,0.805c0.513,1.17,1.756,1.702,3.177,2.012 c0.307,0.994,1.181,1.633,2.233,1.633c0.305,0,0.581-0.052,0.825-0.098c0.271-0.051,0.541-0.102,0.88-0.102 c0.186,0,0.381,0.016,0.582,0.048c0.174,0.028,0.568,0.297,0.884,0.514c0.916,0.627,2.161,1.48,4.085,1.48 c0.042,0,0.084-0.001,0.125-0.002C15.039,26.999,15.09,27,15.141,27c1.915,0,3.161-0.849,4.071-1.469 c0.351-0.24,0.728-0.498,0.905-0.526c0.196-0.031,0.392-0.047,0.578-0.047c0.319,0,0.569,0.035,0.869,0.092 c0.33,0.062,0.595,0.091,0.835,0.091c1.062,0,1.926-0.635,2.231-1.618c1.419-0.308,2.661-0.837,3.17-1.992 c0.117-0.271,0.181-0.537,0.198-0.808c0.065-1.156-0.739-2.154-1.869-2.338c-1.321-0.211-2.226-1.187-2.716-1.887 c0.015-0.005,0.029-0.011,0.042-0.016c2.004-0.767,2.283-2.053,2.271-2.751c-0.022-1.069-0.743-2.002-1.842-2.396 c-0.278-0.112-0.624-0.183-0.975-0.195c0.033-1.272-0.047-2.601-0.526-3.643C20.461,3.325,16.415,3,15.22,3L15.22,3z"></path>
+                                    </svg>
+                                </a>
+
+
+                                <a style="color:brown !important" href="https://www.pinterest.com/AA_TIENDA/?eq=aa%20tienda&amp;etslf=3213" class="social_link" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 50 50">
+                                    <path fill="#55443d" d="M 25 2 C 12.308594 2 2 12.308594 2 25 C 2 37.691406 12.308594 48 25 48 C 37.691406 48 48 37.691406 48 25 C 48 12.308594 37.691406 2 25 2 Z M 25 4 C 36.609375 4 46 13.390625 46 25 C 46 36.609375 36.609375 46 25 46 C 13.390625 46 4 36.609375 4 25 C 4 13.390625 13.390625 4 25 4 Z M 25.570312 11 C 17.925781 11 13 16.417969 13 21.648438 C 13 26.75 15.824219 27.949219 16.417969 28.292969 C 17.007812 28.636719 17.425781 28.394531 17.558594 27.921875 L 17.914062 26.5 C 17.914062 26.5 18.078125 26.121094 17.75 25.722656 C 17.347656 25.238281 16.480469 24.351562 16.480469 22.148438 C 16.480469 18.214844 19.582031 13.933594 25.210938 13.933594 C 30.734375 13.933594 32.625 17.53125 32.625 20.507812 C 32.625 24.210938 30.851562 29.746094 27.109375 29.746094 C 24.785156 29.746094 24.113281 27.949219 24.113281 27.074219 C 24.101562 26.773438 24.167969 26.476562 24.199219 26.332031 C 24.226562 26.191406 25.171875 23.183594 25.472656 22.109375 C 26.148438 19.703125 25.570312 17.703125 23.359375 17.703125 C 20.242188 17.703125 19.121094 22.089844 20.488281 24.894531 L 18.265625 34.003906 C 18.265625 34.003906 17.957031 35.496094 17.894531 36.375 C 17.804688 37.726562 17.996094 39.722656 18.0625 40.320312 C 18.109375 40.753906 18.113281 40.960938 18.308594 41 C 18.503906 41.035156 18.839844 40.703125 19.109375 40.300781 C 19.453125 39.796875 20.609375 38.164062 21.078125 37.125 C 21.496094 36.199219 21.570312 36.175781 22.003906 34.535156 C 22.441406 32.894531 23.027344 30.585938 23.027344 30.585938 C 23.027344 30.585938 24.246094 32.722656 27.542969 32.722656 C 32.230469 32.722656 37 28.640625 37 21.003906 C 37 14.816406 31.640625 11 25.570312 11 Z M 25.570312 11"></path>
+                                    </svg>
+
+
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!--div class="my-2 text-center d-block my-4">
+                    <div class="row justify-content-center my-2 mx-0">
+                        <div class="col-md-12 col-12 text-black d-flex flex-column text-center">
+                            <span>
+                                Save digital card on your mobile,
+                            </span>
+                            <span>and access it just like a regular app.</span>
+                        </div>
+                    </div>
+                    <div class="flex justify-content-center gap-4 my-2">
+
+                        <button class="btn btn-sm text-white px-4 py-2 shadow-none" data-bs-toggle="modal"
+                                data-bs-target="#androidModal" style="background:#bdbdbd;border: none;">
+                            <i class="me-2 fa-solid fa-robot text-white"></i>
+                            Android
+                        </button>
+                        <button class="btn btn-sm text-white px-4 py-2 shadow-none" data-aos="zoom-in"
+                                data-bs-toggle="modal" data-bs-target="#appleModal"
+                                style="background: #bdbdbd;border: none;">
+                            <i class="me-2 fa-brands fa-apple text-white"></i>
+                            iPhone
+                        </button>
+                    </div>
+
+                </div-->
+            </section>
+            <a href="DqZs.vcf" download="DqZs.vcf" class="text-decoration-none card save-contact">
+                Save to Contacts
+            </a>
+        </div>
+        <!-- Modal -->
+                <div class="modal fade" id="androidModal" tabindex="-1" aria-labelledby="androidModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="androidModalLabel">Save Card on your Android Home Screen
+                                </h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="h5">Follow Guide</p>
+                                <ol>
+                                    <li>Open chrome on your Android device and navigate to the Digital card you wish to add
+                                        to your home screen.</li>
+                                    <li>Tap on the three vertical dots (menu button) in the top right corner of screen.</li>
+                                    <li>Select <strong>"Add to Home Screen"</strong> from the dropdown menu.</li>
+                                    <li>Enter a name for the shortcut and tap <strong>Add</strong></li>
+                                    <li>The website will now be available as an icon on your home screen.</li>
+                                </ol>
+                                <span>And thats it! Now you have a shotcut to your favorite website right on your home
+                                    screen.
+                                </span>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Got it!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="appleModal" tabindex="-1" aria-labelledby="appleModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="appleModalLabel">Save Card on your iPhone Home Screen
+                                </h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="h5 lh-xs">Follow Guide</p>
+                                <ol>
+                                    <li>Open safari and navigate to the Digital card you wish to add
+                                        to your home screen.</li>
+                                    <li>Tap the<strong>Share</strong> at the bottom of the screen.</li>
+                                    <li>In the share menu, scroll down and select <strong>"Add to Home Screen"</strong>
+                                    </li>
+                                    <li>Name the shortcut and tap <strong>Add</strong> in the upper right corner</li>
+                                </ol>
+                                <span>And thats it! Now you have a shotcut to your favorite website right on
+                                    your home screen.
+                                </span>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Got it!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </body>
+    <!-- Bootstrap Js -->
+    <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- Include Vuejs & Axios Files -->
+    <script src="js/vue2.js"></script>
+    <script src="js/axios.min.js"></script>
+    <!-- Include Vuejs -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</html>
